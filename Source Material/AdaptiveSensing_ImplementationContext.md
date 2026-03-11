@@ -7,7 +7,8 @@ Public Email: ryan.bell@adaptivesensing.io
 Website Support: support@adaptivesensing.io
 
 Target Website: adaptivesensing.io
-
+Git Repository Host: rbellAdapt
+Vercel Host: use Git login
 
 **Primary Objective:** Develop a lead-generating, highly technical consulting website that positions the Principal as the premier expert in atmospheric, laboratory, and subsea analytical sensing and software integration.
 **Aesthetic:** "Engineering-First", dark mode, terminal-style accents, high-contrast scientific data visualizations. "Atmosphere-forward" imagery (UAVs, complex industrial plumes) with secondary focus on subsea and lab environments.

@@ -193,7 +193,7 @@ export default function ServicesPage() {
               <ul className="space-y-4 font-sans text-slate-300">
                 <li className="flex items-start">
                   <span className="text-amber mr-2 font-mono">{">"}</span>
-                  Low-Level Hardware Communication Protocols (RS-232/485)
+                  Low-Level Hardware Communication Protocols
                 </li>
                 <li className="flex items-start">
                   <span className="text-amber mr-2 font-mono">{">"}</span>

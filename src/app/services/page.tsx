@@ -1,4 +1,4 @@
-import { ArrowRight, Activity, Cpu, Anchor, ShieldCheck } from "lucide-react";
+import { ArrowRight, Activity, Cpu, Anchor, ShieldCheck, Leaf, Map } from "lucide-react";
 import Link from "next/link";
 
 export const metadata = {
@@ -64,6 +64,82 @@ export default function ServicesPage() {
           </div>
         </section>
 
+        {/* Seep Hunting & Reservoir Derisking */}
+        <section id="seep-hunting">
+          <div className="flex items-center space-x-3 mb-8">
+            <Map className="h-8 w-8 text-indigo-400" />
+            <h2 className="text-3xl font-bold text-slate-200 font-sans">Seep Hunting & Reservoir Derisking</h2>
+          </div>
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="order-2 md:order-1 border border-slate-800 rounded-xl bg-slate-900/50 p-6 flex flex-col justify-center">
+              <div className="w-full aspect-video bg-[#050505] rounded-lg border border-slate-800 flex items-center justify-center relative overflow-hidden group">
+                  <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1582994464161-12c823fecd24?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-30 mix-blend-luminosity group-hover:opacity-40 transition-opacity"></div>
+                  <div className="relative z-10 text-center space-y-2">
+                       <p className="font-mono text-indigo-400 text-sm tracking-widest">[ CHEMICAL_GROUNDTRUTH ]</p>
+                      <p className="text-slate-500 text-xs">Phase-protected aromatics detected...</p>
+                  </div>
+              </div>
+            </div>
+            <div className="order-1 md:order-2">
+              <p className="text-slate-400 text-lg mb-6 leading-relaxed">
+                Leveraging in-situ Subsea Mass Spectrometry (UMS) to detect rapid advection pathways and phase-protected aromatics (Benzene/Toluene) directly at the seafloor. Differentiating true reservoir &quot;Live Oil&quot; from aged sediment overprints in real-time.
+              </p>
+              <ul className="space-y-4 font-sans text-slate-300">
+                <li className="flex items-start">
+                  <span className="text-indigo-400 mr-2 font-mono">{">"}</span>
+                  Adaptive Cruise Management & Target-Positive Coring
+                </li>
+                <li className="flex items-start">
+                  <span className="text-indigo-400 mr-2 font-mono">{">"}</span>
+                  Pre-drill Gas-Oil Ratio (GOR) Forecasting
+                </li>
+                <li className="flex items-start">
+                  <span className="text-indigo-400 mr-2 font-mono">{">"}</span>
+                  Chemical Ground-Truthing of 3D Seismic Traps
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Carbon Capture & CCUS */}
+        <section id="carbon-capture">
+          <div className="flex items-center space-x-3 mb-8">
+            <Leaf className="h-8 w-8 text-green-500" />
+            <h2 className="text-3xl font-bold text-slate-200 font-sans">Carbon Capture Industry Support</h2>
+          </div>
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="order-2 md:order-1 border border-slate-800 rounded-xl bg-slate-900/50 p-6 flex flex-col justify-center">
+              <div className="w-full aspect-video bg-[#050505] rounded-lg border border-slate-800 flex items-center justify-center relative overflow-hidden group">
+                  <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1611273426858-450d8ce15eb1?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-30 mix-blend-luminosity group-hover:opacity-40 transition-opacity"></div>
+                  <div className="relative z-10 text-center space-y-2">
+                      <p className="font-mono text-green-500 text-sm tracking-widest">[ MRV_VERIFICATION ]</p>
+                      <p className="text-slate-500 text-xs">Porewater and benthic flux data link active...</p>
+                  </div>
+              </div>
+            </div>
+            <div className="order-1 md:order-2">
+              <p className="text-slate-400 text-lg mb-6 leading-relaxed">
+                Specializing in robust Measurement, Reporting, and Verification (MRV) protocols. Delivering analytical certainty for Carbon Capture, Utilization, and Storage (CCUS) projects operating in environmentally sensitive or deep-sea domains.
+              </p>
+              <ul className="space-y-4 font-sans text-slate-300">
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-2 font-mono">{">"}</span>
+                  Inorganic Carbon (DIC) Baseline Profiling
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-2 font-mono">{">"}</span>
+                  Subsea Leak Detection & Benthic Flux Modeling
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-2 font-mono">{">"}</span>
+                  Rigorous GHG Compliance & Validation Scrutiny
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
         {/* Bespoke Software/Firmware */}
         <section id="software">
           <div className="flex items-center space-x-3 mb-8">
@@ -71,21 +147,36 @@ export default function ServicesPage() {
             <h2 className="text-3xl font-bold text-slate-200 font-sans">Bespoke Software/Firmware</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-12">
-             <div className="order-2 md:order-1 border border-slate-800 rounded-xl bg-slate-900/50 p-8 flex flex-col space-y-4 font-mono text-sm text-slate-400 overflow-x-auto justify-center">
-                <div className="flex space-x-2">
-                  <span className="text-pink-500">import</span> <span>numpy</span> <span className="text-pink-500">as</span> <span>np</span>
-                </div>
+             <div className="order-2 md:order-1 border border-slate-800 rounded-xl bg-slate-950 p-8 flex flex-col space-y-2.5 font-mono text-sm text-slate-400 overflow-x-auto justify-center shadow-[inset_0_2px_20px_rgba(0,0,0,0.5)] leading-snug">
                 <div>
-                   <span className="text-pink-500">def</span> <span className="text-amber">spectral_deconvolution</span>(array_in):
+                  <span className="text-pink-500">import</span> <span>PyCO2SYS</span> <span className="text-pink-500">as</span> <span>pyco2</span>
                 </div>
-                <div className="pl-4 text-slate-500 italic">
-                  # Custom mathematical models isolated
-                </div>
-                <div className="pl-4">
-                  isolated_peaks = np.fft.fft(array_in) * H_matrix
+                <div className="mt-2">
+                   <span className="text-pink-500">def</span> <span className="text-amber">getGasSolubility</span>(gas, S, T, units, pp):
                 </div>
                 <div className="pl-4">
-                  <span className="text-pink-500">return</span> apply_ficks_law(isolated_peaks)
+                  <span className="text-pink-500">if</span> gas == <span className="text-green-400">'CO2'</span>:
+                </div>
+                <div className="pl-8 text-slate-500 italic">
+                  # Predict DIC parameters enforcing TEOS-10
+                </div>
+                <div className="pl-8">
+                  MW = <span className="text-cyan">44.0095</span>
+                </div>
+                <div className="pl-8">
+                  result = pyco2.sys(par1=pp*<span className="text-cyan">1e6</span>, par2=<span className="text-cyan">8.1</span>,
+                </div>
+                <div className="pl-16">
+                  par1_type=<span className="text-cyan">4</span>, par2_type=<span className="text-cyan">3</span>,
+                </div>
+                <div className="pl-16">
+                  salinity=S, temperature=T, pressure=<span className="text-cyan">0</span>)
+                </div>
+                <div className="pl-8 mt-2">
+                  conc_umol = result[<span className="text-green-400">'aqueous_CO2'</span>]
+                </div>
+                <div className="pl-8 mt-2">
+                  <span className="text-pink-500">return</span> getConcinUnits(conc_umol, MW, S, T, units)
                 </div>
              </div>
              <div className="order-1 md:order-2">
@@ -139,7 +230,7 @@ export default function ServicesPage() {
               <div className="mt-8 pt-6 border-t border-slate-800">
                  <Link href="https://BCAnalytical.com" target="_blank" className="flex items-center text-slate-300 hover:text-cyan transition-colors">
                    <ShieldCheck className="h-5 w-5 mr-3 text-cyan" />
-                   Looking for off-the-shelf COTS subsea systems? Visit BCAnalytical.
+                   Looking for off-the-shelf COTS subsea systems? Visit www.bcanalytical.com
                  </Link>
               </div>
             </div>

@@ -17,7 +17,7 @@ Vercel Host: use Git login
 
 To protect proprietary IP and ensure algorithmic portability for future bespoke Windows/Android applications, the system MUST use a decoupled architecture.
 
-* **Frontend:** React, Next.js, or Vue (Antigravity's optimal choice for fast, component-based UI). Gitpages host if possible (free).
+* **Frontend:** React, Next.js, or Vue (Antigravity's optimal choice for fast, component-based UI). 
 * **Data Visualization:** Plotly.js or D3.js (Must support dark-mode, highly technical charts like 3D heatmaps and signal waveforms).
 * **Backend (IP Fortress):** Python via **FastAPI**.
 

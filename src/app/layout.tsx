@@ -18,6 +18,7 @@ export const metadata: Metadata = {
 };
 
 import Navigation from "@/components/ui/Navigation";
+import CloudRunPinger from "@/components/ui/CloudRunPinger";
 
 export default function RootLayout({
   children,
@@ -30,6 +31,7 @@ export default function RootLayout({
         className={`${interSans.variable} ${firaCode.variable} antialiased min-h-screen bg-background text-foreground`}
       >
         <Navigation />
+        <CloudRunPinger />
         <main className="pt-16">
           {children}
         </main>

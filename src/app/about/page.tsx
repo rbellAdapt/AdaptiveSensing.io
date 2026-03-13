@@ -45,7 +45,7 @@ export default function AboutPage() {
             {/* Quick Stats Sidebar */}
             <div className="space-y-6">
                 <div className="bg-slate-900/50 border border-slate-800 rounded-xl p-6">
-                    <h3 className="font-mono text-cyan text-sm mb-4 border-b border-slate-800 pb-2">CORE COMPETENCIES</h3>
+                    <h3 className="font-mono text-cyan text-sm mb-4 border-b border-slate-800 pb-2">STRATEGIC FOCUS</h3>
                     <ul className="space-y-3 font-sans text-slate-300 text-sm">
                         <li className="flex items-center"><span className="text-cyan mr-2">■</span> End-to-end Technical Leadership</li>
                         <li className="flex items-center"><span className="text-cyan mr-2">■</span> Cross-disciplinary System Architecture</li>
@@ -60,6 +60,14 @@ export default function AboutPage() {
                     <p className="text-slate-300 font-sans text-sm">
                         Innovator in Membrane Inlet Mass Spectrometry (MIMS) technology, including recognized patents for specialized sample introduction interfaces designed to enhance signal-to-noise ratios in turbulent environments.
                     </p>
+                </div>
+
+                <div className="bg-slate-900/50 border border-slate-800 rounded-xl p-6">
+                    <h3 className="font-mono text-cyan text-sm mb-4 border-b border-slate-800 pb-2">CONTACT</h3>
+                    <ul className="space-y-3 font-mono text-slate-300 text-sm">
+                        <li><a href="mailto:ryan.bell@bcanalytical.com" className="hover:text-cyan transition-colors">ryan.bell@bcanalytical.com</a></li>
+                        <li><a href="mailto:ryan.bell@adaptivesensing.io" className="hover:text-cyan transition-colors">ryan.bell@adaptivesensing.io</a></li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -84,6 +92,93 @@ export default function AboutPage() {
                     <p className="text-slate-400 text-sm font-sans leading-relaxed">Building the physical bridges—high-pressure vessels, bespoke ROV payload integrations, and the low-level firmware required to run them autonomously.</p>
                 </div>
             </div>
+        </section>
+
+        {/* Selected Technical Expertise Section */}
+        <section className="border-t border-slate-800 pt-16">
+           <h3 className="text-2xl font-bold text-slate-200 font-sans tracking-tight mb-8">Selected Technical Expertise</h3>
+           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+             {[
+               {
+                 category: "Data Science & Software",
+                 skills: [
+                   "Mass Spectrometry Deconvolution",
+                   "Real-Time Data Acq. (RT-DAS)",
+                   "Complex DSP & Signal Filtering",
+                   "Geospatial Data Fusion & Mapping",
+                   "Scientific Software (Python, MATLAB)",
+                   "Chemometric Algorithm Design"
+                 ]
+               },
+               {
+                 category: "Hardware & Instrumentation",
+                 skills: [
+                   "Membrane Introduction MS (MIMS)",
+                   "Vacuum Diagnostics & Metrology",
+                   "Subsea Pumping & Fluidics",
+                   "Low-Level Instrument Interfacing",
+                   "In Situ Sensor Development",
+                   "Custom Pressure Vessel Design"
+                 ]
+               },
+               {
+                 category: "Field Operations & Services",
+                 skills: [
+                   "Offshore Campaign Logistics",
+                   "Field Campaign Management",
+                   "Sensor Deployment & Service",
+                   "Cold Seep Characterization",
+                   "ASV & ROV Tooling Integration",
+                   "Sensor Integration & Platform Design"
+                 ]
+               },
+               {
+                 category: "Strategy & Systems Engineering",
+                 skills: [
+                   "System Performance Testing (QA/QC)",
+                   "IP & Patent Operations",
+                   "Regulatory & GHG Reporting",
+                   "Technical Strategy Consulting",
+                   "Multi-Agent AI Workflows",
+                   "HaaS Architectures"
+                 ]
+               },
+               {
+                 category: "Chemical Oceanography",
+                 skills: [
+                   "Inorganic Carbon Systems (DIC)",
+                   "Porewater Extraction & Analysis",
+                   "Benthic Flux Chamber Studies",
+                   "Ocean Acidification Dynamics",
+                   "Early Diagenesis Modeling",
+                   "High-Precision Titrations"
+                 ]
+               },
+               {
+                 category: "Atmospheric & Emissions",
+                 skills: [
+                   "Gaussian Plume Dispersion",
+                   "Fugitive Emissions Tracking",
+                   "Open-Path Laser Spectroscopy",
+                   "UAV Payload Integration",
+                   "Source Apportionment Algorithms",
+                   "Carbon Credit Verification"
+                 ]
+               }
+             ].map((section, idx) => (
+               <div key={idx} className="p-6 rounded-xl border border-slate-800/60 bg-slate-900/30 flex flex-col h-full group hover:border-slate-700/60 transition-colors">
+                 <h4 className="text-slate-300 font-semibold font-sans mb-4 border-b border-slate-800/60 pb-3">{section.category}</h4>
+                 <ul className="space-y-3 mt-auto">
+                   {section.skills.map((skill, index) => (
+                     <li key={index} className="flex items-center gap-2 group/item">
+                       <span className="h-1.5 w-1.5 rounded-full bg-slate-700 group-hover/item:bg-cyan/70 transition-colors flex-shrink-0"></span>
+                       <span className="text-slate-400 group-hover/item:text-slate-200 text-sm font-sans transition-colors">{skill}</span>
+                     </li>
+                   ))}
+                 </ul>
+               </div>
+             ))}
+           </div>
         </section>
 
       </div>

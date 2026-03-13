@@ -147,11 +147,11 @@ export default function ServicesPage() {
           </div>
         </section>
 
-        {/* Bespoke Software/Firmware */}
+        {/* Custom Software/Firmware */}
         <section id="software">
           <div className="flex items-center space-x-3 mb-8">
             <Cpu className="h-8 w-8 text-amber" />
-            <h2 className="text-3xl font-bold text-slate-200 font-sans">Bespoke Software/Firmware</h2>
+            <h2 className="text-3xl font-bold text-slate-200 font-sans">Custom Software/Firmware</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-12">
              <div className="order-2 md:order-1 border border-slate-800 rounded-xl bg-slate-950 p-8 flex flex-col space-y-2.5 font-mono text-sm text-slate-400 overflow-x-auto justify-center shadow-[inset_0_2px_20px_rgba(0,0,0,0.5)] leading-snug">
@@ -193,11 +193,11 @@ export default function ServicesPage() {
               <ul className="space-y-4 font-sans text-slate-300">
                 <li className="flex items-start">
                   <span className="text-amber mr-2 font-mono">{">"}</span>
-                  C++ / RS-232/485 Instrument Control
+                  Low-Level Hardware Communication Protocols (RS-232/485)
                 </li>
                 <li className="flex items-start">
                   <span className="text-amber mr-2 font-mono">{">"}</span>
-                  Python / MATLAB Spectral Deconvolution Arrays
+                  C++ / Python / MATLAB Spectral Deconvolution Arrays
                 </li>
                 <li className="flex items-start">
                   <span className="text-amber mr-2 font-mono">{">"}</span>

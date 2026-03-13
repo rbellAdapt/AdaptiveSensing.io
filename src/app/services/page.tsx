@@ -82,7 +82,7 @@ export default function ServicesPage() {
             </div>
             <div className="order-1 md:order-2">
               <p className="text-slate-400 text-lg mb-6 leading-relaxed">
-                Leveraging in-situ Subsea Mass Spectrometry (UMS) to detect rapid advection pathways and phase-protected aromatics (Benzene/Toluene) directly at the seafloor. Differentiating true reservoir &quot;Live Oil&quot; from aged sediment overprints in real-time.
+                Leveraging in-situ Subsea Mass Spectrometry (UMS) to detect rapid advection pathways and phase-protected aromatics directly at the seafloor. Differentiating true reservoir &quot;Live Oil&quot; from aged sediment overprints in real-time.
               </p>
               <ul className="space-y-4 font-sans text-slate-300">
                 <li className="flex items-start">
@@ -98,6 +98,13 @@ export default function ServicesPage() {
                   Chemical Ground-Truthing of 3D Seismic Traps
                 </li>
               </ul>
+
+              <div className="mt-8 pt-6 border-t border-slate-800">
+                 <Link href="https://BCAnalytical.com" target="_blank" className="flex items-center text-slate-300 hover:text-indigo-400 transition-colors">
+                   <ShieldCheck className="h-5 w-5 mr-3 text-indigo-400" />
+                   Need mission-ready seep hunting instrumentation? Visit www.bcanalytical.com
+                 </Link>
+              </div>
             </div>
           </div>
         </section>

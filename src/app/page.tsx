@@ -109,10 +109,6 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:items-center justify-between mb-12 border-b border-slate-800 pb-4 gap-4">
              <h2 className="text-3xl font-bold text-slate-200 font-sans tracking-tight">Interactive Analytical Tools</h2>
-             <span className="font-mono text-cyan text-sm px-3 py-1 border border-cyan/20 rounded-full bg-cyan/5 flex items-center">
-                 <span className="h-2 w-2 rounded-full bg-cyan mr-2 animate-pulse"></span>
-                 SERVER_LINK: ACTIVE
-             </span>
           </div>
           
           <div className="grid md:grid-cols-2 gap-8">

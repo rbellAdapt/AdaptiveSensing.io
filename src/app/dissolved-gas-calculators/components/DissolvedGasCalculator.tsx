@@ -127,9 +127,7 @@ export default function DissolvedGasCalculator() {
         moleFractions: moleFractions,
       };
 
-      const apiUrl = process.env.NODE_ENV === "development"
-            ? "http://127.0.0.1:8000/api/dissolved-gas"
-            : `${process.env.NEXT_PUBLIC_API_URL || 'https://adaptivesensing-api-107301792697.us-central1.run.app'}/api/dissolved-gas`;
+      const apiUrl = "/api/dissolved-gas";
 
       const response = await fetch(apiUrl, {
         method: "POST",

@@ -22,7 +22,7 @@ export default function Home() {
             </h1>
             
             <p className="max-w-4xl text-lg md:text-xl text-slate-400 mb-10 font-sans leading-relaxed">
-              The independent engineering and data science consulting practice of <strong className="text-slate-200 font-semibold">Dr. Ryan Bell, PhD</strong>.<br/>
+              The independent engineering and data science consulting practice of <strong className="text-slate-200 font-semibold">Dr. Ryan Bell</strong>.<br/>
               Specializing in bespoke analytical instrumentation, digital signal processing, and quantitative chemometrics for high-stakes Defense, Subsea, and Industrial applications.
             </p>
             
@@ -73,14 +73,14 @@ export default function Home() {
 
               <div className="p-6 rounded-xl border border-slate-800 bg-background/50 hover:border-amber/50 transition-colors group flex flex-col h-full">
                 <Cpu className="h-10 w-10 text-amber mb-4 group-hover:scale-110 transition-transform flex-shrink-0" />
-                <h3 className="text-xl font-semibold mb-3">Agentic AI & Scientific Software</h3>
+                <h3 className="text-xl font-semibold mb-3">Scientific Software & Agentic AI</h3>
                 <p className="text-slate-400 font-sans text-sm leading-relaxed mb-4">
-                  End-to-end pipelines leveraging Python, LabVIEW, and MATLAB for advanced instrument control and full-duplex interfacing. Deploying multi-agentic AI architectures to accelerate spectral deconvolution and automate compliance reporting.
+                  With extensive cross-functional experience in environmental sciences and scientific programming (Python, LabVIEW, and MATLAB), I am equipped to thoroughly review Agentic AI outputs and accelerate the development cycle within a responsible implementation framework.
                 </p>
                 <ul className="mt-auto text-slate-500 text-sm list-disc pl-5 space-y-1.5 marker:text-amber/50">
-                  <li>Aggressive Multi-Agent Workflows</li>
+                  <li>Sensor Network Engineering</li>
+                  <li>Agent Workflows</li>
                   <li>Automated Report Generation</li>
-                  <li>Full-Duplex Sensor Network Engineering</li>
                 </ul>
               </div>
 

@@ -1,7 +1,7 @@
-fastapi==0.115.6
-uvicorn==0.34.0
-numpy==2.2.1
-scipy==1.15.0
-pydantic==2.10.4
-gsw==3.6.18
-PyCO2SYS==1.8.2
+fastapi
+uvicorn
+numpy
+scipy
+pydantic
+gsw
+PyCO2SYS

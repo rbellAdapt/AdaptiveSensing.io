@@ -97,7 +97,7 @@ export default function DissolvedGasCalculator() {
         gasAllUnits: gasEntries.map((g) => g.unit),
       };
 
-      const apiUrl = "https://adaptivesensing-api-107301792697.us-central1.run.app/api/partial-pressure";
+      const apiUrl = "/api/partial-pressure";
 
       const response = await fetch(apiUrl, {
         method: "POST",

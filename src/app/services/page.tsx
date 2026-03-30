@@ -52,13 +52,9 @@ export default function ServicesPage() {
                 </li>
               </ul>
             </div>
-            <div className="border border-slate-800 rounded-xl bg-slate-900/50 p-6 flex flex-col justify-center">
-              <div className="w-full aspect-video bg-[#050505] rounded-lg border border-slate-800 flex items-center justify-center relative overflow-hidden group">
-                  <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1549495101-fba29352e825?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-30 mix-blend-luminosity group-hover:opacity-40 transition-opacity"></div>
-                  <div className="relative z-10 text-center space-y-2">
-                      <p className="font-mono text-cyan text-sm tracking-widest">[ VISUALIZATION_MODULE ]</p>
-                      <p className="text-slate-500 text-xs">Awaiting client authorization...</p>
-                  </div>
+            <div className="border border-slate-800 rounded-xl bg-slate-900/50 p-2 flex flex-col justify-center">
+              <div className="w-full relative rounded-lg border border-slate-800 overflow-hidden">
+                  <img src="/images/DroneExampleMap.jpeg" alt="UAV Atmospheric Plume Mapping Dashboard" className="w-full h-auto object-cover opacity-80 mix-blend-screen" />
               </div>
             </div>
           </div>
@@ -135,13 +131,9 @@ export default function ServicesPage() {
                 </li>
               </ul>
             </div>
-            <div className="border border-slate-800 rounded-xl bg-slate-900/50 p-6 flex flex-col justify-center">
-              <div className="w-full aspect-video bg-[#050505] rounded-lg border border-slate-800 flex items-center justify-center relative overflow-hidden group">
-                  <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1611273426858-450d8ce15eb1?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-30 mix-blend-luminosity group-hover:opacity-40 transition-opacity"></div>
-                  <div className="relative z-10 text-center space-y-2">
-                      <p className="font-mono text-green-500 text-sm tracking-widest">[ MRV_VERIFICATION ]</p>
-                      <p className="text-slate-500 text-xs">Porewater and benthic flux data link active...</p>
-                  </div>
+            <div className="border border-slate-800 rounded-xl bg-slate-900/50 p-2 flex flex-col justify-center">
+              <div className="w-full relative rounded-lg border border-slate-800 overflow-hidden">
+                  <img src="/images/CarbonMVP.jpeg" alt="Carbon Capture MRV Dashboard" className="w-full h-auto object-cover opacity-80 mix-blend-screen" />
               </div>
             </div>
           </div>
@@ -242,13 +234,9 @@ export default function ServicesPage() {
               </div>
             </div>
             
-            <div className="border border-slate-800 rounded-xl bg-slate-900/50 p-6 flex flex-col justify-center">
-              <div className="w-full aspect-video bg-[#050505] rounded-lg border border-slate-800 flex items-center justify-center relative overflow-hidden group">
-                  <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1682687220199-d0124f48f95b?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-30 mix-blend-luminosity group-hover:opacity-40 transition-opacity"></div>
-                  <div className="relative z-10 text-center space-y-2">
-                       <p className="font-mono text-cyan text-sm tracking-widest">[ TELEMETRY_FEED ]</p>
-                      <p className="text-slate-500 text-xs">Waiting for ROV uplink...</p>
-                  </div>
+            <div className="border border-slate-800 rounded-xl bg-slate-900/50 p-2 flex flex-col justify-center">
+              <div className="w-full relative rounded-lg border border-slate-800 overflow-hidden">
+                  <img src="/images/Rovintegration.jpeg" alt="ROV Subsea Hardware Integration" className="w-full h-auto object-cover opacity-80 mix-blend-screen" />
               </div>
             </div>
 

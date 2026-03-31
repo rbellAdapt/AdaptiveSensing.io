@@ -10,3 +10,6 @@
 
 - Added @vercel/analytics to the Next.js layout adapter.
 - Corrected environment_config.md backend proxy documentation mapping constraints.
+
+- Rectified Vercel TypeScript build failures by aligning the UAS Simulator relative import paths.
+- Finalized SOP dependency copy adjustments to ensure future updates don't break Vercel deployments.

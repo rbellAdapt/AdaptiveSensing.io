@@ -1,11 +1,11 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import GridConfigTab from '@/components/GridConfigTab';
-import PlumeConfigTab from '@/components/PlumeConfigTab';
-import SensorConfigTab from '@/components/SensorConfigTab';
-import FlightConfigTab from '@/components/FlightConfigTab';
-import AdaptiveConfigTab from '@/components/AdaptiveConfigTab';
-import SimulationViewport from '@/components/SimulationViewport';
+import GridConfigTab from './GridConfigTab';
+import PlumeConfigTab from './PlumeConfigTab';
+import SensorConfigTab from './SensorConfigTab';
+import FlightConfigTab from './FlightConfigTab';
+import AdaptiveConfigTab from './AdaptiveConfigTab';
+import SimulationViewport from './SimulationViewport';
 
 export default function Home() {
   const [gridData, setGridData] = useState<any>(null);

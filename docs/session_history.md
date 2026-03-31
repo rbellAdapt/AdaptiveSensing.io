@@ -7,3 +7,6 @@
 - Discarded Next.js 14 `middleware.ts` conventions in favor of the Next.js 16 `proxy.ts`, resulting in successful compilation and Edge interception.
 - Synchronized latest 1080p UI density and layout tweaks from the remote `uas-plume-tracker` dev repository.
 - Completed atomic synchronization to `AdaptiveSensingWeb/main`.
+
+- Added @vercel/analytics to the Next.js layout adapter.
+- Corrected environment_config.md backend proxy documentation mapping constraints.

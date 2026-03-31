@@ -19,6 +19,7 @@ export const metadata: Metadata = {
 
 import Navigation from "@/components/ui/Navigation";
 import CloudRunPinger from "@/components/ui/CloudRunPinger";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function RootLayout({
   children,
@@ -35,6 +36,7 @@ export default function RootLayout({
         <main className="pt-16">
           {children}
         </main>
+        <Analytics />
       </body>
     </html>
   );

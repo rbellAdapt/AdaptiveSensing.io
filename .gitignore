@@ -13,3 +13,6 @@ extract_pdf.py
 pdf_text.txt
 slr.txt
 trellisense.txt
+
+.env.local
+.env

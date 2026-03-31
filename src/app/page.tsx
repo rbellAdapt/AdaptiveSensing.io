@@ -62,11 +62,11 @@ export default function Home() {
                 <Activity className="h-10 w-10 text-cyan mb-4 group-hover:scale-110 transition-transform flex-shrink-0" />
                 <h3 className="text-xl font-semibold mb-3">Atmospheric Sensing & Plume Modeling</h3>
                 <p className="text-slate-400 font-sans text-sm leading-relaxed mb-4">
-                  Integration of UAS platforms with spectroscopic sensors for real-time trace gas quantification. Experience in Gaussian plume atmospheric dispersion modeling and statistical source signature delineation.
+                  Integration of UAS platforms with spectroscopic sensors for real-time trace gas quantification. Experience in UAS Plume Simulation and statistical source signature delineation.
                 </p>
                 <ul className="mt-auto text-slate-500 text-sm list-disc pl-5 space-y-1.5 marker:text-cyan/50">
                   <li>Spectroscopic Trace Gas Quantification</li>
-                  <li>Gaussian Plume Dispersion Modeling</li>
+                  <li>UAS Plume Simulation</li>
                   <li>Autonomous Sensing Platform Optimization</li>
                 </ul>
               </div>
@@ -112,11 +112,11 @@ export default function Home() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-8">
-            <Link href="/interactive-tools/plume-visualizer" className="group p-8 rounded-xl border border-slate-700/50 bg-slate-900/20 hover:bg-slate-800/40 hover:border-cyan/50 transition-all flex flex-col items-center text-center">
+            <Link href="/interactive-tools/uas-plume-simulator" className="group p-8 rounded-xl border border-slate-700/50 bg-slate-900/20 hover:bg-slate-800/40 hover:border-cyan/50 transition-all flex flex-col items-center text-center">
                <div className="h-12 w-12 rounded-full bg-cyan/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                  <Cloud className="h-6 w-6 text-cyan" />
                </div>
-               <h3 className="text-xl font-bold text-slate-200 mb-3">Gaussian Plume Visualizer</h3>
+               <h3 className="text-xl font-bold text-slate-200 mb-3">UAS Plume Simulator</h3>
                <p className="text-slate-400 text-sm font-sans mb-6 flex-grow">
                  Interactive simulation for modeling atmospheric dispersion and tracing fugitive emissions.
                </p>

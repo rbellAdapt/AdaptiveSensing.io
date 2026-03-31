@@ -49,8 +49,8 @@ export default function Navigation() {
               {isDropdownOpen && (
                 <div className="absolute left-0 mt-2 w-56 pt-2 pb-1 z-50 animate-in fade-in slide-in-from-top-1 duration-200">
                   <div className="bg-slate-950 border border-slate-700/80 rounded-md shadow-2xl py-2 flex flex-col relative z-50">
-                    <Link href="/interactive-tools/plume-visualizer" className="px-4 py-2 text-slate-300 hover:bg-slate-800 hover:text-cyan transition-colors">
-                      Gaussian Plume
+                    <Link href="/interactive-tools/uas-plume-simulator" className="px-4 py-2 text-slate-300 hover:bg-slate-800 hover:text-cyan transition-colors">
+                      UAS Plume Simulator
                     </Link>
                     <Link href="/interactive-tools/ficks-law" className="px-4 py-2 text-slate-300 hover:bg-slate-800 hover:text-cyan transition-colors">
                       Fick's Law Analyzer

@@ -84,7 +84,7 @@ export default function AboutPage() {
                 <div className="p-6 border border-slate-800 rounded-xl bg-[#0c0c0c] hover:border-amber/50 transition-colors">
                     <BrainCircuit className="h-8 w-8 text-amber mb-4" />
                     <h4 className="font-semibold text-lg text-slate-200 mb-2 font-sans">Data Science & Algorithms</h4>
-                    <p className="text-slate-400 text-sm font-sans leading-relaxed">Developing proprietary Fickian models, Gaussian plume dispersion mapping, and real-time spectral deconvolution isolated on secure server environments.</p>
+                    <p className="text-slate-400 text-sm font-sans leading-relaxed">Developing proprietary Fickian models, UAS Plume Simulations, and real-time spectral deconvolution isolated on secure server environments.</p>
                 </div>
                 <div className="p-6 border border-slate-800 rounded-xl bg-[#0c0c0c] hover:border-cyan/50 transition-colors">
                     <Shield className="h-8 w-8 text-cyan mb-4" />
@@ -157,7 +157,7 @@ export default function AboutPage() {
                {
                  category: "Atmospheric & Emissions",
                  skills: [
-                   "Gaussian Plume Dispersion",
+                   "UAS Plume Simulation",
                    "Fugitive Emissions Tracking",
                    "Open-Path Laser Spectroscopy",
                    "UAV Payload Integration",

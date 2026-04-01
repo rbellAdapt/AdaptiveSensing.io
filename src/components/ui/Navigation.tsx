@@ -52,12 +52,7 @@ export default function Navigation() {
                     <Link href="/interactive-tools/uas-plume-simulator" className="px-4 py-2 text-slate-300 hover:bg-slate-800 hover:text-cyan transition-colors">
                       UAS Plume Simulator
                     </Link>
-                    <Link href="/interactive-tools/ficks-law" className="px-4 py-2 text-slate-300 hover:bg-slate-800 hover:text-cyan transition-colors">
-                      Fick's Law Analyzer
-                    </Link>
-                    <Link href="/interactive-tools/signal-simulator" className="px-4 py-2 text-slate-300 hover:bg-slate-800 hover:text-cyan transition-colors">
-                      DSP Signal Visualizer
-                    </Link>
+
                     <div className="border-t border-slate-800 my-1"></div>
                     <Link href="/dissolved-gas-calculators" className="px-4 py-2 text-amber-100 hover:bg-slate-800 hover:text-amber-400 transition-colors">
                       Gas Calculators Suite

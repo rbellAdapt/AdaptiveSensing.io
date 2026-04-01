@@ -13,3 +13,6 @@
 
 - Rectified Vercel TypeScript build failures by aligning the UAS Simulator relative import paths.
 - Finalized SOP dependency copy adjustments to ensure future updates don't break Vercel deployments.
+
+- Removed placeholder tools (Fick's & DSP) from UI for MVP consolidation.
+- Authored deep agentic orchestration qualifications artifact.

@@ -125,31 +125,7 @@ export default function Home() {
                </span>
             </Link>
 
-            <Link href="/interactive-tools/ficks-law" className="group p-8 rounded-xl border border-slate-700/50 bg-slate-900/20 hover:bg-slate-800/40 hover:border-cyan/50 transition-all flex flex-col items-center text-center">
-               <div className="h-12 w-12 rounded-full bg-cyan/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                 <Waves className="h-6 w-6 text-cyan" />
-               </div>
-               <h3 className="text-xl font-bold text-slate-200 mb-3">Fick's Law Analyzer</h3>
-               <p className="text-slate-400 text-sm font-sans mb-6 flex-grow">
-                 Calculate diffusion rates across membranes and intricate interfaces in extreme environments.
-               </p>
-               <span className="inline-flex items-center text-cyan text-sm font-mono group-hover:underline">
-                 Calculate <ArrowRight className="ml-1 h-4 w-4" />
-               </span>
-            </Link>
 
-            <Link href="/interactive-tools/signal-simulator" className="group p-8 rounded-xl border border-slate-700/50 bg-slate-900/20 hover:bg-slate-800/40 hover:border-cyan/50 transition-all flex flex-col items-center text-center">
-               <div className="h-12 w-12 rounded-full bg-cyan/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                 <Activity className="h-6 w-6 text-cyan" />
-               </div>
-               <h3 className="text-xl font-bold text-slate-200 mb-3">DSP Signal Visualizer</h3>
-               <p className="text-slate-400 text-sm font-sans mb-6 flex-grow">
-                 Digital signal processing sandbox for noise reduction and hardware response tuning.
-               </p>
-               <span className="inline-flex items-center text-cyan text-sm font-mono group-hover:underline">
-                 Simulate <ArrowRight className="ml-1 h-4 w-4" />
-               </span>
-            </Link>
 
             <Link href="/dissolved-gas-calculators" className="group p-8 rounded-xl border border-amber/30 bg-amber/5 hover:bg-amber/10 hover:border-amber/50 transition-all flex flex-col items-center text-center">
                <div className="h-12 w-12 rounded-full bg-amber/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">

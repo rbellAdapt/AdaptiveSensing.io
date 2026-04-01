@@ -11,6 +11,8 @@
 - **Environment Variables:**
   - `NEXT_PUBLIC_API_URL`: `https://api.adaptivesensing.io` (Proxy)
   - `UAS_API_KEY`: `[ENCRYPTION_KEY]` (Required for UAS Plume Simulator Edge Proxy)
+  - `UPSTASH_REDIS_REST_URL`: `[UPSTASH_URL]` (Drives Edge IP Rate Limiting)
+  - `UPSTASH_REDIS_REST_TOKEN`: `[UPSTASH_TOKEN]` (Drives Edge IP Rate Limiting)
 
 ## 📡 API Backend: Google Cloud Run & Azure
 - **Python Physics Engine (Google Cloud Run):**
@@ -29,5 +31,6 @@
 ## 🔐 Authentication: Azure AD
 - **Tenant ID:** `27335087-7578-4847-800f-405005950050`
 - **Client ID:** `1577449b-5060-4112-8104-700500500500`
-- **Secret:** `[ENCRYPTION_KEY]` (Stored in Azure Key Vault)
+In 
+- **Secret:** `[ENCRYPTION_KEY]` (Stored in Azure Key Vault)In he
 - **Scopes:** `api://1577449b-5060-4112-8104-700500500500/access_as_user`
